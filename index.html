@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="UTF-8">
+	<title>Bike Shop</title>
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous" type="text/css" rel="stylesheet">
+	<link href="css/style.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+	<div class="container-fluid home">
+		 <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-menu-collapse" aria-expanded="true" onclick="return update_margin();">
+      <!--button type="button" class="navbar-toggle collapsed"-->
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html"><img src="img/logo.png"></a>
+    </div>
+
+		<div role="navigation" class="navbar collapse navbar-collapse" id="nav-menu-collapse">
+			<ul class="nav navbar-nav navbar-right">
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Bicycles<span class="caret"></span></a>
+					<ul class="dropdown-menu pull-left">
+						<li><a href="">Fixed/Single speed</a></li>
+						<li><a href="">City bikes</a></li>
+						<li><a href="">Premium series</a></li>
+					</ul>
+				</li>
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Parts<span class="caret"></span></a>
+					<ul class="dropdown-menu pull-left">
+						<li><a href="">Chains</a></li>
+						<li><a href="">Tubes</a></li>
+						<li><a href="">Tires</a></li>
+						<li><a href="">Disc breaks</a></li>
+					</ul>
+				</li>
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Accessories<span class="caret"></span></a>
+					<ul class="dropdown-menu pull-left">
+						<li><a href="">Locks</a></li>
+						<li><a href="">Helmets</a></li>
+						<li><a href="">Arm covers</a></li>
+						<li><a href="">Jerseys</a></li>
+					</ul>
+				</li>
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Extras<span class="caret"></span></a>
+					<ul class="dropdown-menu pull-left">
+						<li><a href="">Classic bell</a></li>
+						<li><a href="">Bottle cage</a></li>
+						<li><a href="">Tires</a></li>
+						<li><a href="">Truck grip</a></li>
+					</ul>
+				</li>
+				<li><a href="#" class="">Contact</a></li>
+				<li><a href="#"><span class="glyphicon glyphicon-shopping-cart"></span></a></li>
+			</ul>
+		</div>
+			<div id="carousel-obj" class="carousel slide" data-ride="carousel">
+				  <!-- Indicators -->
+				  <!--ol class="carousel-indicators">
+				    <li data-target="#carousel-obj" data-slide-to="0" class="active"></li>
+				    <li data-target="#carousel-obj" data-slide-to="1"></li>
+				    <li data-target="#carousel-obj" data-slide-to="2"></li>
+				  </ol-->
+
+				  <!-- Wrapper for slides -->
+				  <div class="carousel-inner" role="listbox">
+				    <div class="item active">
+				      
+				      <div class="carousel-caption">
+				        <h1>SPEED BICYCLE</h1>
+				      </div>
+				    </div>
+				    <div class="item">
+				      
+				      <div class="carousel-caption">
+				        <h1>MOUNTAIN BICYCLE</h1>
+				      </div>
+				    </div>
+				    <div class="item">
+				      
+				      <div class="carousel-caption">
+				        <h1>HANDMADE BICYCLE</h1>
+				      </div>
+				    </div>
+				    <div class="carousel-msg">
+					    <h3>You <span>create</span> the <span>journey</span>, we supply the <span>parts</span></h3>
+					    <button class="btn btn-default carousel-btn">SHOP BIKES</button><br><br>
+					    <a href="#category"><img src="img/scroll.png"></a>
+					</div>
+				  </div>
+
+				  <!-- Controls -->
+				  <a class="left carousel-control" href="#carousel-obj" role="button" data-slide="prev">
+				    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+				    <span class="sr-only">Previous</span>
+				  </a>
+				  <a class="right carousel-control" href="#carousel-obj" role="button" data-slide="next">
+				    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+				    <span class="sr-only">Next</span>
+				  </a>
+				</div>
+		</div>
+	</div>
+<div class="container-fluid categories">
+	<h2 id="category">CATEGORIES</h2>
+	<div class="category-thumbs">
+		<div class="col-xs-12 col-sm-4 col-md-4 thumb1">
+			<div class="thumb-details">
+				<h5><a href="">FIXED / SINGLE SPEED</a></h5>
+				<p><a href="">Are you ready for the 27.5 Revloution ?</a></p>
+				<a href="" class="categories-btn">GO TO STORE</a>
+			</div>
+		</div>
+		<div class="col-xs-12 col-sm-4 col-md-4 thumb2">
+			<div class="thumb-details">
+				<h5><a href="">FIXED / SINGLE SPEED</a></h5>
+				<p><a href="">Are you ready for the 27.5 Revloution ?</a></p>
+				<a href="" class="categories-btn">GO TO STORE</a>
+			</div>
+		</div>
+		<div class="col-xs-12 col-sm-4 col-md-4 thumb3">
+			<div class="thumb-details">
+				<h5><a href="">FIXED / SINGLE SPEED</a></h5>
+				<p><a href="">Are you ready for the 27.5 Revloution ?</a></p>
+				<a href="" class="categories-btn">GO TO STORE</a>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="container-fluid popular">
+	<div id="carousel-popular-obj" class="carousel slide" data-ride="carousel">
+		<h2 class="title">POPULAR BIKES</h2>
+				  <!-- Wrapper for slides -->
+				  <div class="carousel-inner" role="listbox">
+				    <div class="item active popular-item">
+				      	<div class="group-page">
+				      		<div class="group">
+						        <img class="popular-img" src="img/bikes/Model1.jpg"/>
+						        <div class="left-info">
+							        <h5>JETT MAC</h5>
+							        <p>$300</p>
+						        </div>
+						        <div class="right-info">
+							        <select>
+							        	<option>1</option>
+							        	<option>2</option>
+							        	<option>3</option>
+							        </select>
+							        <a class="buy-btn" href="">BUY</a>
+						        </div>
+						        <div class="clearfix"></div>
+					    	</div>
+					    	<div class="group">
+						        <img class="popular-img" src="img/bikes/Model2.jpg"/>
+						        <div class="left-info">
+							        <h5>JETT MAC</h5>
+							        <p>$300</p>
+						        </div>
+						        <div class="right-info">
+							        <select>
+							        	<option>1</option>
+							        	<option>2</option>
+							        	<option>3</option>
+							        </select>
+							        <a class="buy-btn" href="">BUY</a>
+						        </div>
+						    </div>
+						    <div class="group">
+						        <img class="popular-img" src="img/bikes/Model3.jpg"/>
+						        <div class="left-info">
+							        <h5>JETT MAC</h5>
+							        <p>$300</p>
+						        </div>
+						        <div class="right-info">
+							        <select>
+							        	<option>1</option>
+							        	<option>2</option>
+							        	<option>3</option>
+							        </select>
+							        <a class="buy-btn" href="">BUY</a>
+						        </div>
+					        </div>
+				        </div>
+				      <div class="carousel-caption">
+				      	
+				      </div>
+				      	<a class="quick-view-btn" href="">Quick view</a>
+				    </div>
+				    <div class="item popular-item">
+				      	<div class="group-page">
+				      		<div class="group">
+						        <img class="popular-img" src="img/bikes/Model1.jpg"/>
+						        <div class="left-info">
+							        <h5>JETT MAC</h5>
+							        <p>$300</p>
+						        </div>
+						        <div class="right-info">
+							        <select>
+							        	<option>1</option>
+							        	<option>2</option>
+							        	<option>3</option>
+							        </select>
+							        <a class="buy-btn"href="">BUY</a>
+						        </div>
+					    	</div>
+					    	<div class="group">
+						        <img class="popular-img" src="img/bikes/Model2.jpg"/>
+						        <div class="left-info">
+							        <h5>JETT MAC</h5>
+							        <p>$300</p>
+						        </div>
+						        <div class="right-info">
+							        <select>
+							        	<option>1</option>
+							        	<option>2</option>
+							        	<option>3</option>
+							        </select>
+							        <a class="buy-btn" href="">BUY</a>
+						        </div>
+						    </div>
+						    <div class="group">
+						        <img class="popular-img" src="img/bikes/Model3.jpg"/>
+						        <div class="left-info">
+							        <h5>JETT MAC</h5>
+							        <p>$300</p>
+						        </div>
+						        <div class="right-info">
+							        <select>
+							        	<option>1</option>
+							        	<option>2</option>
+							        	<option>3</option>
+							        </select>
+							        <a class="buy-btn" href="">BUY</a>
+						        </div>
+					        </div>
+				        </div>
+				      <div class="carousel-caption">
+				      	
+				      </div>
+				    
+				    </div>
+				    <div class="item popular-item">
+				      	<div class="group-page">
+				      		<div class="group">
+						        <img class="popular-img" src="img/bikes/Model1.jpg"/>
+						        <div class="left-info">
+							        <h5>JETT MAC</h5>
+							        <p>$300</p>
+						        </div>
+						        <div class="right-info">
+							        <select>
+							        	<option>1</option>
+							        	<option>2</option>
+							        	<option>3</option>
+							        </select>
+							        <a class="buy-btn" href="">BUY</a>
+						        </div>
+					    	</div>
+					    	<div class="group">
+						        <img class="popular-img" src="img/bikes/Model2.jpg"/>
+						        <div class="left-info">
+							        <h5>JETT MAC</h5>
+							        <p>$300</p>
+						        </div>
+						        <div class="right-info">
+							        <select>
+							        	<option>1</option>
+							        	<option>2</option>
+							        	<option>3</option>
+							        </select>
+							        <a class="buy-btn" href="">BUY</a>
+						        </div>
+						    </div>
+						    <div class="group">
+						        <img class="popular-img" src="img/bikes/Model3.jpg"/>
+						        <div class="left-info">
+							        <h5>JETT MAC</h5>
+							        <p>$300</p>
+						        </div>
+						        <div class="right-info">
+							        <select>
+							        	<option>1</option>
+							        	<option>2</option>
+							        	<option>3</option>
+							        </select>
+							        <a class="buy-btn" href="">BUY</a>
+						        </div>
+					        </div>
+				        </div>
+				      <div class="carousel-caption">
+				      	
+				      </div>
+				      	<a class="quick-view-btn" href="">Quick view</a>
+				    </div>
+				  
+				  </div>
+
+				</div>
+</div>
+<div class="container-fluid contact">
+	<h2 class="title">CONTACT</h2>
+	<form id="contact-form" action="" method="POST">
+		<div class="form-inline ">
+			<input type="text" class="form-control name" name="lastname" placeholder="NAME">
+			<input type="text" class="form-control name" name="firstname" placeholder="SURNAME">
+		</div><br>
+		<div class="form-group">
+			<input type="email" class="form-control" placeholder="USER@DOMAIN.COM"><br>
+			<textarea class="form-control" rows="8" placeholder="MESSAGE"></textarea>
+		</div>
+  <button type="submit" class="btn btn-default contact-btn">Send</button>
+</form>
+</div>
+<nav class="navbar navbar-default" id="footer">
+  	<div class="container-fluid">
+  		<a href="index.html"><img src="img/logo2.png" class="footer-brand"></a>
+   		<ul class="nav navbar-nav pull-right footer-menu">
+		  	<li><a href="#">BICYCLES</a></li>
+		  	<li><a href="#">PARTS</a></li>
+		  	<li><a href="#">ACCESSORIES</a></li>
+		  	<li><a href="#">EXTRAS</a></li>
+		</ul>
+ 	</div>
+ 	</nav>
+ 	<div class="container-fluid footer-bottom"><p class="copyright">© 2015 Bike shop. All Rights Reserved</p></div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+	<script type="text/javascript">
+	function update_margin(){
+		//$(this).click(function(){
+			if($("#carousel-obj").css('margin-top') != '0px'){
+				$("#carousel-obj").css('margin-top', '0px');
+				//alert($("#carousel-obj").css('margin-top'));
+			}
+			else{
+				$("#carousel-obj").css('margin-top', '155px');
+				//alert($("#carousel-obj").css('margin-top'));
+			}
+		//});
+			}
+	</script>
+</body>
+</html>

@@ -1,0 +1,285 @@
+a:hover{
+	text-decoration: none;
+}
+.home{
+	background: url("../img/bicycle-wide.jpg");
+	background-size: cover;
+	width:100%;
+	height:100vh;
+	padding-top: 40px;
+}
+.dropdown-menu.pull-left {
+    left:0;
+  }
+ .dropdown:hover .dropdown-menu{
+ 	display:block;
+ 	background: yellow;
+ 	border-bottom-left-radius: 10px;
+ 	border-bottom-right-radius: 10px;
+	border-top-right-radius: 10px;
+	width:200px;
+	border:0px;
+ }
+ .dropdown-menu{
+ 	background:green;
+ }
+.icon-bar{
+	background:#FFFFFF;
+}
+.navbar-brand{
+	padding:0;
+	margin-top: -20px;
+}
+.navbar a{
+	color:#FFFFFF;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 15px;
+}
+.navbar-nav li a{
+	padding: 5px 15px;
+}
+.navbar-nav li:hover a{
+	background: yellow;
+	color:#000;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	font-weight: bold;
+}
+#carousel-obj{
+	margin-top:25vh;
+}
+.carousel-control.left, .carousel-control.right{
+	background: none;
+}
+.carousel-caption h1{
+	color:#FFFFFF;
+	font-size: 3.5em;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+.carousel-caption p{
+	color:#FFFFFF;
+}
+.carousel-inner .item{
+	height:200px;
+}
+.carousel-msg{
+	text-align: center;
+	margin-top:-50px;
+	color:#FFFFFF;
+}
+.carousel-msg h3{
+	margin-top: 0px;
+	margin-bottom: 35px;
+	font-size: 1.5em;
+}
+.carousel-msg span{
+	color:yellow;
+}
+.carousel-btn{
+	background: #000;
+	color:yellow;
+	font-size:0.875em;
+	padding:1em 2.3em;
+	border:0px;
+	border-radius: 7px;
+}
+.carousel-btn:hover{
+	color:#000;
+	background: yellow;
+}
+.categories{
+	background: url("../img/cate.jpg");
+	background-size: cover;
+	min-height:600px;
+}
+.categories h2{
+	text-align: center;
+	font-weight: bold;
+	margin:70px 0;
+}
+.category-thumbs{
+	width:85%;
+	margin:0 auto;
+	text-align: center;
+}
+.thumb1,.thumb2,.thumb3{
+	height:288px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+	margin-bottom: 15px;
+}
+
+.thumb1{
+	background: url("../img/c1.jpg") no-repeat;
+}
+.thumb2{
+	background: url("../img/c2.jpg") no-repeat;
+}
+.thumb3{
+	background: url("../img/c3.jpg") no-repeat;
+}
+.categories-btn{
+	border:3px solid #FFFFFF;
+	border-radius: 5px;
+	padding:10px;
+	color:#FFFFFF;
+	font-weight: bold;;
+}
+.categories-btn:hover{
+	border:2px solid yellow;
+	color: yellow;
+}
+.thumb-details{
+	position: absolute;
+	top:100px;
+	left:15%;
+	text-align: center;
+}
+.thumb-details p{
+	padding-bottom: 30px;
+}
+.thumb-details p a{
+	color:#FFFFFF;
+}
+.thumb-details h5 a{
+	color: yellow;
+	font-size: 14px;
+	font-weight: bold;
+}
+.popular{
+	padding:0;
+	height:550px;
+}
+
+.carousel-popular-obj{
+	height:400px;
+
+}
+.title{
+	text-align: center;
+	margin:0;
+	padding-top: 70px;
+	padding-bottom: 30px;
+	font-weight: bold;
+}
+.popular-img{
+	display: block;
+	max-width:385px;
+	margin:10px;
+}
+#carousel-popular-obj .popular-item{
+	height:400px;
+}
+.group-page{
+	height:400px;
+	text-align: center;
+}
+.group{
+	display: inline-block;
+	height: 380px;
+}
+.group h5{
+	font-weight: bold;
+}
+.group select{
+	width:100px;
+	height: 45px;
+
+}
+.buy-btn{
+	background: gray;
+	color:#FFFFFF;
+	padding: 1em 2em;
+	border-radius: 5px;
+}
+.buy-btn:hover{
+	background: #000;
+	color:yellow;
+}
+
+.left-info{
+	float:left;
+	display: inline-block;
+	margin-left: 20px;
+}
+.right-info{
+	float: right;
+	display: inline-block;
+	margin-top: 10px;
+	margin-right: 20px;
+}
+.contact{
+	background: url("../img/contact.jpg");
+	background-size: cover;
+	height:600px;
+}
+#contact-form{
+	width:50%;
+	margin:0 auto;
+}
+#contact-form input, #contact-form textarea{
+	border-radius:7px;
+}
+#contact-form .name{
+	width:49.5%;
+}
+#contact-form textarea{
+	resize:none;
+}
+.contact-btn{
+	width:100%;
+	background: #b7b7b7;
+	color:#fff;
+}
+.contact-btn:hover{
+	background: #000;
+	color:yellow;
+	border-radius:7px;
+}
+.footer-menu{
+	padding:20px 50px 20px 0;
+}
+#footer li a{
+	color:#000;
+}
+#footer{
+	background: yellow;
+	border-radius: 0px;
+	margin-bottom: 0;
+	border:none;
+}
+.footer-bottom{
+	background: #000;
+	color:#FFFFFF;
+	padding: 10px 0;
+}
+.copyright{
+	text-align: center;
+	padding-top: 5px;
+	color: yellow;
+}
+.footer-brand{
+	padding: 10px 0 10px 50px;
+}
+@media (max-width: 850px){
+	#contact-form .name{
+		width:100%;
+		margin-top:20px;
+}
+}
+@media (max-width: 780px){
+	.navbar-collapse.in{
+		overflow:visible;
+	}
+	.navbar-brand{
+		margin-left:20px;
+	}
+}
+@media (max-width: 600px){
+	#contact-form {
+		width:80%;
+}
+}
